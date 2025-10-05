@@ -1,0 +1,3 @@
+[SYSTEM]
+APIPW = "password"
+ENV_NAME = "APIKEY_PRD"
