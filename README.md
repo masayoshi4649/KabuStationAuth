@@ -1,2 +1,4 @@
 # KabuStationAuth
 KabuStation用認証ツール
+
+KabuStationを起動した状態で実行する事でTokenを取得し、環境変数に保存するプログラム。

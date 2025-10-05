@@ -1,3 +1,6 @@
 [SYSTEM]
+# KabuStationのAPIパスワード
 APIPW = "password"
+
+# 保存する環境変数名
 ENV_NAME = "APIKEY_PRD"
