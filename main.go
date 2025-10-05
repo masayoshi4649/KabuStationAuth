@@ -1,8 +1,8 @@
 package main
 
 import (
+	"bufio"
 	"flag"
-	"fmt"
 	"log"
 	"os"
 
@@ -20,8 +20,9 @@ func main() {
 
 	cfg, err := loadConfig(confPath)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "failed to load config (%s): %v\n", confPath, err)
-
+		log.Printf("failed to load config (%s): %v\n", confPath, err)
+		log.Println("Enterキーを押してください...")
+		_, _ = bufio.NewReader(os.Stdin).ReadString('\n') // 改行が来るまでブロック
 		os.Exit(1)
 	}
 
@@ -31,12 +32,11 @@ func main() {
 		kabusapi.ReqPostAuthToken{APIPassword: cfg.System.Apipw},
 	)
 	if err != nil {
-		log.Fatalf("token error: %v (http=%d)", err, code)
+		log.Printf("token error: %v (http=%d)", err, code)
+		log.Println("Enterキーを押してください...")
+		_, _ = bufio.NewReader(os.Stdin).ReadString('\n') // 改行が来るまでブロック
 	}
-	fmt.Println("token:", tok.Token)
 	kabusapi.SetAPIKey(tok.Token)
-
-	fmt.Println(tok.Token)
 
 	/*
 		check
