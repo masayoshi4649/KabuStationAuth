@@ -1,4 +1,4 @@
 # build
 ```bash
-go build -o KabusAuth .
+go build -o KabusAuth.exe .
 ```
