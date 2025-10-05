@@ -1,0 +1,12 @@
+github.com/masayoshi4649/KabuStationAPI v0.0.0-20251004184847-6565c076066c h1:2USreIPWg4W1dyXD1uFMalWgllebhACwdiA9gBvuwNA=
+github.com/masayoshi4649/KabuStationAPI v0.0.0-20251004184847-6565c076066c/go.mod h1:FYjNZyCXXWqQOqVkGvMU76A/OKYTSTDBHOM06sUUyI8=
+github.com/masayoshi4649/pandalib-go v0.0.0-20251005025127-e66ccd312807 h1:6zaOLnZ9cWFp0/GkHxD3SQwCU0rCv8Dc0afxuhvxslk=
+github.com/masayoshi4649/pandalib-go v0.0.0-20251005025127-e66ccd312807/go.mod h1:PcCV9jNTjWV2Y2OVn2SC8s7Fic00R71WyhnktNzcT+Q=
+github.com/pelletier/go-toml/v2 v2.2.4 h1:mye9XuhQ6gvn5h28+VilKrrPoQVanw5PMw/TB0t5Ec4=
+github.com/pelletier/go-toml/v2 v2.2.4/go.mod h1:2gIqNv+qfxSVS7cM2xJQKtLSTLUE9V8t9Stt+h56mCY=
+golang.org/x/net v0.33.0 h1:74SYHlV8BIgHIFC/LrYkOGIwL19eTYXQ5wc6TBuO36I=
+golang.org/x/net v0.33.0/go.mod h1:HXLR5J+9DxmrqMwG9qjGCxZ+zKXxBru04zlTvWlWuN4=
+golang.org/x/sys v0.36.0 h1:KVRy2GtZBrk1cBYA7MKu5bEZFxQk4NIDV6RLVcC8o0k=
+golang.org/x/sys v0.36.0/go.mod h1:OgkHotnGiDImocRcuBABYBEXf8A9a87e/uXjp9XT3ks=
+resty.dev/v3 v3.0.0-beta.3 h1:3kEwzEgCnnS6Ob4Emlk94t+I/gClyoah7SnNi67lt+E=
+resty.dev/v3 v3.0.0-beta.3/go.mod h1:OgkqiPvTDtOuV4MGZuUDhwOpkY8enjOsjjMzeOHefy4=
